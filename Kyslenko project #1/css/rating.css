@@ -1,0 +1,200 @@
+.ratingHolder {
+    width: 210px;
+    position: relative;
+}
+.ratingHolder .passiveRatingHolder {
+    position: relative;
+    width: 178px;
+    height: 37px;
+    left: 50%;
+    margin-left: -89px;
+    display: block;
+}
+.ratingHolder .passiveRatingHolder > div {
+    position:absolute;
+    height: 19px;
+    background-image: url("../images/icons/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: 232px;
+}
+.ratingHolder .passiveRatingHolder .ratingBg {
+    background-position: 0 0;
+    width: 108px;
+    z-index: 1;
+}
+.ratingHolder .passiveRatingHolder .ratingMask {
+    background-position: 0 -361px; 
+    z-index: 99;
+}
+.ratingHolder .rateNumbers {
+    background-position: 71px 0; 
+    margin-top: 20px;
+    text-align: center; 
+    width: 57%; 
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.ratingHolder .rateNumbers .ratingvalue {
+    color: #2d2d2d; 
+    font-size: 10px;
+}
+.ratingHolder .rateNumbers .bestrating {
+    margin-bottom: 4px; 
+    display: inline-block; 
+    font-size: 10px;
+}
+
+.ratingHolder .userRatingHolder {
+    opacity: 0;
+}
+.ratingHolder:hover .userRatingHolder, .ratingHolder.voted .userRatingHolder {
+    opacity: 1; 
+    transition: .1s;
+}
+.ratingHolder .userRating {
+    position: absolute;
+    left: -64px;
+    cursor: pointer;
+    z-index: 9999;
+    width: 178px;
+}
+.ratingHolder .votingHolder {
+    direction: rtl; 
+    position: relative;
+}
+.ratingHolder .vote {
+    position: absolute; 
+    top: -6px;
+    left:0px;
+    cursor: pointer;
+    z-index: 99999;
+    width: 24px;
+    height: 17px;
+    background-image: url("../images/icons/stars.jpg");
+    background-repeat: no-repeat; 
+    background-position: 0 -412px; 
+    background-size: 262px;
+}
+.ratingHolder .vote.onestar {
+    left: 27px;
+}
+.ratingHolder .vote.twostar {
+    left: 47px;
+}
+.ratingHolder .vote.threestar {
+    left: 67px;
+}
+.ratingHolder .vote.fourstar {
+    left: 87px;
+}
+.ratingHolder .vote.fivestar {
+    left: 107px;
+}
+.ratingHolder .vote:hover ~ .vote, .vote.active ~ .vote {
+    background-position: -91px -412px;
+}
+.ratingHolder .vote:hover, .ratingHolder.voted .vote.active {
+    background-position:0 -391px;
+}
+
+@media(min-width: 900px){
+    .ratingHolder .passiveRatingHolder > div {
+    left: -52px; 
+    top: -8px;
+    }
+    .ratingHolder .vote.onestar {
+    left: 27px;
+}
+.ratingHolder .vote.twostar {
+    left: 47px;
+}
+.ratingHolder .vote.threestar {
+    left: 67px;
+}
+.ratingHolder .vote.fourstar {
+    left: 87px;
+}
+.ratingHolder .vote.fivestar {
+    left: 107px;
+}
+}
+@media(max-width: 900px){
+        .ratingHolder .passiveRatingHolder > div {
+    left: -30px; 
+    top: 11px;
+}
+.ratingHolder .vote.onestar {
+    left:47px;
+    top:12px;
+}
+.ratingHolder .vote.twostar {
+    left: 67px;
+    top:12px;
+}
+.ratingHolder .vote.threestar {
+    left: 87px;
+    top:12px;
+}
+.ratingHolder .vote.fourstar {
+    left: 107px;
+    top:12px;
+}
+.ratingHolder .vote.fivestar {
+    left: 127px;
+    top:12px;
+}
+}
+@media(max-width: 600px){
+    .ratingHolder .passiveRatingHolder > div {
+    left: -34px; 
+    top: 21px;
+    }
+.ratingHolder .vote.onestar {
+    left:45px;
+    top:23px;
+}
+.ratingHolder .vote.twostar {
+    left: 65px;
+    top:23px;
+}
+.ratingHolder .vote.threestar {
+    left: 85px;
+    top:23px;
+}
+.ratingHolder .vote.fourstar {
+    left: 105px;
+    top:23px;
+}
+.ratingHolder .vote.fivestar {
+    left: 125px;
+    top:23px;
+}
+}
+
+@media(max-width: 400px){
+        .ratingHolder .passiveRatingHolder > div {
+    left: -56px; 
+    top: 9px;
+}
+
+.ratingHolder .vote.onestar {
+    left:22px;
+    top:11px;
+}
+.ratingHolder .vote.twostar {
+    left: 42px;
+    top:11px;
+}
+.ratingHolder .vote.threestar {
+    left: 62px;
+    top:11px;
+}
+.ratingHolder .vote.fourstar {
+    left: 82px;
+    top:11px;
+}
+.ratingHolder .vote.fivestar {
+    left: 102px;
+    top:11px;
+}
+}

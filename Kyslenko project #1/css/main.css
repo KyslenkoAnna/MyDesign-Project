@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Buda:300|Hepta+Slab|Jacques+Francois+Shadow|Londrina+Outline|Thasadith&display=swap');
+*{
+	margin: auto;
+}
+body, html {
+	height: 100%;
+}
+header{
+	color:white;
+	background:black;
+	animation: 1s linear normal;
+}
+header div h1{
+	font-family: 'Londrina Outline', cursive;
+	font-size: 3.4em;
+}
+header div p{
+	font-family: 'Thasadith', sans-serif;
+}
+.pallarax_1{
+	height: 650px;
+}
+.bg-grad{
+z-index:-1;
+opacity: 0;
+transition: opacity 5s linear;
+}
+.bg-grad.active{
+opacity: 1;
+}
+.bg-grad.one{
+background-image: url(../images/background/back12.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+position: absolute;
+height: 650px;
+width: 100%;
+}
+.bg-grad.two{
+background-image: url(../images/background/back5.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+position: absolute;
+height: 650px;
+width: 100%;
+}
+.bg-grad.three{
+background-image: url(../images/background/back6.jpg);
+background-size:cover;
+position: absolute;
+height: 650px;
+width: 100%;
+}
+main nav ul{
+	margin-left: 0;
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+main nav ul li{
+	list-style-type:none;
+}
+main nav ul li a{
+	text-decoration: none;
+	color:black;
+	font-size: 1.4rem;
+}
+main nav ul li a:hover{
+	font-size: 1.4em;
+	font-weight: 800;
+}
+.motto_1{
+	font-family: 'Buda', cursive;
+	text-transform: uppercase;
+}
+.button{
+	text-decoration: none;
+	color:black;
+	position: absolute;
+	padding: 15px 20px;
+	text-align: center;
+  	font-size: 25px;
+  	border-radius: 20px;
+  	text-transform: uppercase;
+  	letter-spacing: 3px;
+  	border: 1px solid #000;
+  	background-size: 200% auto;
+  	box-shadow: 0 0 20px rgba(0,0,0,.1);
+  	transition:.5s;
+  	font-family: 'Buda', cursive;
+ }
+overlay-active .button {
+  	filter: blur(1);
+}
+.button:hover{
+	font-size: 28px;
+	border-radius: 30px;
+	border: 1px solid blue;
+	color:blue;
+}
+.white{
+	height: 50px;
+	background-color: white;
+}
+.pallarax_2 {
+  	background-image:url(../images/background/back14.jpg);
+  	height:733px;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+
+}
+#choose_us h2{
+	text-transform: uppercase;
+	font-family: 'Hepta Slab', serif;
+	font-size: 2rem;
+	width: 600px;
+}
+#choose_us ul{
+	padding-top: 2%;
+	display: flex;
+	list-style-type:none;
+	font-family: 'Thasadith', sans-serif;
+	font-weight: 600;
+ }
+.pallarax_3a{
+  	height:733px;
+  	background-image: url(../images/background/back2.jpg);
+}
+#portfolio .header_portfolio{
+	text-align: center;
+	font-family: 'Hepta Slab', serif;
+	font-size: 2em;
+	padding-top:1%;
+}
+.wrapper_1 {
+  	border-radius: 7px 7px 7px 7px;
+  	box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.wrapper_2 {
+  	border-radius: 7px 7px 7px 7px;
+  	box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.wrapper_3 {
+  	border-radius: 7px 7px 7px 7px;
+  	box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.project-img {
+  	float: left;
+}
+.project-img img {
+  	border-radius: 7px 0 0 7px;
+}
+.project-text h1, .project_info {
+	font-family: 'Buda', cursive;
+}
+.project-info {
+  	float: right;
+  	border-radius: 0 7px 10px 7px;
+  	background-color: #ffffff;
+}
+.project-text h1 {
+  	color:#474747;
+  	font-family: 'Buda', cursive;
+}
+.project-text h2 {
+	font-family: 'Thasadith', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 0.3em;
+}
+.project_info button {
+	float: right;
+	display: inline-block;
+	height: 50px;
+	width: 176px;
+	box-sizing: border-box;
+	border: transparent;
+	border-radius: 60px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	background-color: #9cebd5;
+	cursor: pointer;
+	outline: none;
+}
+.project_info button a{
+	text-decoration: none;	
+	color: #ffffff;
+
+}
+.project_info button:hover {
+	background-color: #79b0a1;
+}
+.pallarax_3b{
+  	height:733px;
+  	background-image: url(../images/background/back3.jpg);
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+.pallarax_3b iframe{
+	border-radius: 30px;
+}
+.pallarax_3b .text_video{
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Hepta Slab', serif;
+	color: white;
+	text-align: center;
+}
+.pallarax_4 {
+  	background-image: url(../images/background/back13.jpg);
+  	height:733px;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+#form_wrap form fieldset{
+	background:#D8FFE7;
+	font-family: 'Thasadith', sans-serif;
+	border-radius: 20px;
+	box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+	background:transparent;
+	background:linear-gradient(70deg,#DAFFFC,#FFFFFF);
+}
+#form_wrap form fieldset h4{
+	font-family: 'Hepta Slab', serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 2%;
+}
+#form_wrap label{
+	text-transform:uppercase;
+	font-weight: 600;
+	color: #192D21;
+	padding-top: 1%;
+}
+#form_wrap form fieldset div input{
+	border:none;
+	font-weight:lighter;
+	position:relative;
+ 	border-bottom:1px solid rgba(0,0,0,.1);
+ 	color:#858585;
+ 	letter-spacing: 3px;
+ 	background: transparent;
+}
+#form_wrap form fieldset div input:hover, active, focus{
+    color:#ff5722;
+    outline:none;
+    border-bottom:1px solid #ff5722;
+}
+#form_wrap form button{
+  	background:gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, transparent));
+  	background:linear-gradient(left, white 50%, transparent 50%);
+  	background:linear-gradient(left, white 50%, transparent 50%);
+  	background:linear-gradient(to right, white 50%, transparent 50%);
+  	background-size: 300% 200%;
+  	background-position: 100% 0;
+  	transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+   	border-radius: 15px;
+   	background-color: #FFBFBF;
+   	font-family: 'Thasadith', sans-serif;
+   	text-transform: uppercase;
+   	color:white;
+   	border:2px solid;
+   	letter-spacing: 3px;
+}
+#form_wrap form button:active,
+#form_wrap form button:focus, 
+#form_wrap form button:hover {
+ 	outline: none;
+  	background-position: 0 0;
+  	color: black;
+  	border:2px solid #FFBFBF;
+}
+.pallarax_5{
+  	/*background-image:url(../images/background/back15.jpg);*/
+  	height:733px;
+  	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+#about_us h3{
+	font-family: 'Hepta Slab', serif;
+}
+#about_us div{
+	font-family: 'Thasadith', sans-serif;
+	font-weight: 700;
+}
+.pallarax_6{
+  	background-image: url(../images/background/back12.jpg);
+  	height:650px;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+#contacts h3{
+	font-family: 'Hepta Slab', serif;
+	text-align: center;
+}
+#contacts p{
+	position: absolute;
+	font-family: 'Thasadith', sans-serif;
+	text-align: center;
+}
+footer{
+	height: 75px;
+	background-color:#000;
+	color:white;
+	font-family: 'Thasadith', sans-serif;
+	text-align:center;
+	padding-top: 1%;
+}
+.sprite1{
+	background: url(../images/icons/sprites.png), no-repeat;
+	background-size: 300px;
+	background-position: -6px -6px;
+	display: inline-block;
+	position: absolute;
+	width: 34px;
+	height:34px;
+	cursor: pointer;
+}
+.sprite2{
+	background: url(../images/icons/sprites.png), no-repeat;
+	background-position: -57px -6px;
+	background-size: 300px;
+	display: inline-block;
+	position: absolute;
+	width: 34px;
+	height:34px;
+	cursor: pointer;
+}
+.sprite3{
+	background: url(../images/icons/sprites.png), no-repeat;
+	background-position: -108px -6px;
+	background-size: 300px;
+	display: inline-block;
+	position: absolute;
+	width: 34px;
+	height:34px;
+	cursor: pointer;
+}
+.sprite4{
+	background: url(../images/icons/sprites.png), no-repeat;
+	background-position: -56px -56px;
+	background-size: 300px;
+	display: inline-block;
+	position: absolute;
+	width: 34px;
+	height:34px;
+	cursor: pointer;
+}

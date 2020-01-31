@@ -1,0 +1,162 @@
+@media(min-width: 900px){
+	#wrapper .images1 figure img{
+		height: 650px;
+		width: 1000px;
+	}
+	#wrapper .home a{
+		font-size:20px;
+	}
+	#wrapper .home a:hover{
+		font-size:22px;
+	}
+	.header_portfolio{
+		margin:34px 0 0 -14px;
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.header_portfolio .slogans p:hover{
+		font-size: 25px;
+	}
+	.next_page a img{
+		width: 10;
+		height: 40;
+		position: fixed;
+		margin: 67px 0 0 470px;
+	}
+	.plan1_2{
+		width: 30%;
+		float:right;
+		min-height:500px;
+		margin: 250px 0 0 1045px;
+		position: fixed;
+	}
+	.plan1_2 figure img{
+		width: 400px;
+		height: 300px;
+	}
+	.plan3{
+		width: 30%;
+		float:right;
+		min-height:500px;
+		margin: 175px 0 0 1055px;
+		position: fixed;
+	}
+	.plan3 figure img{
+		width: 350px;
+		height: 450px;
+	}
+}
+@media(max-width: 900px){
+	#wrapper .images1 figure img{
+		height: 300px;
+		width: 500px;
+	}
+	#wrapper .home a{
+		font-size:20px;
+	}
+	#wrapper .home a:hover{
+		font-size:22px;
+	}
+	.header_portfolio{
+		margin:75px 0 0 171px;
+		font-size: 24px;
+		line-height:35px;
+	}
+	.header_portfolio .slogans p:hover{
+		font-size: 25px;
+	}
+	.header_portfolio p{
+		display: none;
+	}
+	.plan1_2 figure img{
+		margin:0 0 0 47px;
+		width: 400px;
+		height: 300px;
+	}
+	.next_page a img{
+		position: fixed;
+		margin: -3000px 0 0 492px;
+	}
+	.plan3 figure img{
+		width: 350px;
+		height: 450px;
+		margin: 0 0 0 55px;
+	}
+}
+@media(max-width: 600px){
+	#wrapper .images1 figure img{
+		height: 250px;
+		width: 350px;
+	}
+	.slogans{
+		display: none;
+	}
+	#wrapper .home a{
+		font-size:15px;
+	}
+	#wrapper .home a:hover{
+		font-size:17px;
+	}
+	.header_portfolio{
+		margin:71px 0 0 0px;
+		font-size: 21px;
+		line-height: 25px;
+	}
+	.header_portfolio p{
+		display: none;
+	}
+ 	.header_portfolio .slogans p:hover{
+	 	font-size: 17px;
+	}
+	.plan1_2 figure img{
+		margin: 0 0 0 0;
+		width: 350px;
+		height: 250px;
+	}
+	.next_page a img{
+		display: none;
+	}
+	.plan3 figure img{
+		width: 250px;
+		height: 350px;
+		margin: 0 0 0 45px;
+	}
+}
+@media(max-width: 400px){
+	#wrapper .images1 figure img{
+		height: 200px;
+		width: 300px;
+	}
+	.slogans{
+		display: none;
+	}
+	#wrapper .home a{
+		font-size:13px;
+	}
+	#wrapper .home a:hover{
+		font-size:15px;
+	}
+	.header_portfolio{
+		margin:56px 0 0 -35px;
+		font-size: 23px;
+	}
+	.header_portfolio p{
+		display: none;
+	}
+	 .header_portfolio .slogans p:hover{
+	 	font-size: 7px;
+	}
+	.plan1_2 figure img{
+		margin: 0 0 0 0;
+		width: 300px;
+		height: 240px;
+	}
+	.next_page a img{
+		display: none;
+	}
+	.plan3 figure img{
+		width: 250px;
+		height: 350px;
+		margin: 0 0 0 20px;
+	}
+}

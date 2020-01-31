@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css?family=Buda:300|Hepta+Slab|Jacques+Francois+Shadow|Londrina+Outline|Thasadith&display=swap');
+@media(min-width: 900px) /*Большой обычный экзан - обычный компьютер*/
+{
+	header div:first-child{
+		text-align: center;
+	}
+	header div:last-child{
+		margin: -80px 0 0 1200px;
+		width: 300px;
+		text-align: right;
+	}
+	.motto_1{
+	margin: 0px 0 0 60px;
+	font-size: 5em;
+}
+	.button{
+		margin-left: 1260px;
+		margin-top: -61px;
+	}
+	#mottos_2{
+		margin: 147px 0 0 130px;
+	}
+	#howwework{
+		height: 400px;
+		padding-top: 1%;
+	}
+	#howwework h2{
+		font-family: 'Hepta Slab', serif;
+		text-transform: uppercase;
+		font-size: 2.5rem;
+		width: 600px;
+		text-align: center;
+		animation: 2s linear normal;
+		font-weight: 600;
+	}
+	.steps h3{
+		border:1px solid #000;
+		border-radius:100px;
+		margin-top:10%;
+		font-family: 'Thasadith', sans-serif;
+		font-size: 2rem;
+		font-weight: 600;
+		width: 300px;
+		height: 150px;
+	}
+	.steps, h3{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+	.step_1, .step_2, .step_3, .step_4{
+		position: relative;
+	}
+	.step_1{
+		animation: .1s linear 1.6s normal;
+	}
+	.step_2{
+		animation: .1s linear 1.4s normal;
+	}
+	.step_3{
+		animation: .1s linear 1.2s normal;
+	}
+ 	.step_4{
+		animation: .1s linear 1s normal;
+	}
+            /*Выпадающий текст*/
+	.description{
+		display: none;
+		font-family: 'Thasadith', sans-serif;
+		font-size: 1.5rem;
+		text-transform:uppercase;
+		background:#FFF4DA;
+		border: 1px solid #000;
+		border-radius: 100px;
+		font-weight: 800;
+		margin:-152px 0 0 0;
+		width: 300px;
+		height: 150px;
+	}
+	.step_1:hover .description,
+	.step_2:hover .description,
+	.step_3:hover .description,
+	.step_4:hover .description {
+		display: flex;
+		position: absolute;
+		text-align:center;
+		justify-content: center;
+	}
+
+	#choose_us{
+		margin-top:-150px;
+		line-height: 3em;
+	}
+	#choose_us ul{
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 2em;
+		margin-right:50px;
+		margin-bottom:0;
+ 	}
+	#choose_us ul li:nth-child(2){
+		padding-left: 100px;
+	}
+	#choose_us ul li:nth-child(3){
+		padding-left: 100px;
+	}
+	#choose_us ul li:last-child{
+		padding-left: 100px;
+	}
+	#images_page2 ul li figure img{
+		height: 285px;
+		width: 355px;
+		padding-top: 2%;
+		list-style-type:none;
+		font-size: 2em;
+		list-style-type:none;
+	}
+	#images_page2 ul li {
+		list-style-type:none;
+	}
+	#images_page2 ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	#portfolio .header_portfolio{
+		font-size: 2em;
+	}
+
+	.wrapper_1 {
+	  	height: 300px;
+	  	width: 654px;
+	  	margin: 10px 0 0 50px;
+	}
+	.wrapper_2 {
+	  	height: 300px;
+	  	width: 654px;
+	  	margin: 30px 0 0 50px;
+	}
+	.wrapper_3 {
+		position: absolute;
+	  	height: 300px;
+	  	width: 654px;
+	  	margin:-490px 0 0 800px;
+	}
+	.project-img {
+	  	height: 200px;
+	  	width: 327px;
+	}
+	.project-info {
+  		height: 300px;
+  		width: 327px;
+	}
+	.project-text {
+    	height: 300px;
+    	width: 327px;
+	}
+	.project-text h1 {
+		text-align:center;
+  		font-size: 35px;
+	}
+	.project-text h2 {
+		margin: 0 0 0 38px;
+		font-size: 13px;
+	}
+	.project-text p { /*Для всех остальных расширений этот текст скрыт*/
+   		height: 200px;
+   		padding: 0 0 0 18px;
+   		font-size: .9em;
+   		font-family: 'Thasadith', sans-serif;
+   		color: #8d8d8d;
+   		line-height: 1.7em;
+   		font-weight: lighter;
+   		overflow: hidden;
+	}
+	.pallarax_3b iframe{
+		margin:70px 0 0 50px;
+		height: 600px;
+		width: 900px;
+	}
+	.pallarax_3b .text_video{
+		font-size: 3rem;
+		margin: 200px 0 0 950px;
+		width: 560px;
+	}
+	.project_info button {
+		margin: -54px 8px 0 16px;
+	}
+		/*Для Формы*/
+	#form_wrap form {
+		padding-top:2%;
+	}
+	#form_wrap form fieldset{
+		width: 650px;
+		font-size: 1.4em;
+		line-height: 1.2em;
+	}
+	#form_wrap form button{
+		margin-left:450px;
+		font-size: 2rem;
+	}
+	#form_wrap label~input{
+		margin-left:20px;
+}
+	#form_wrap form fieldset div input{
+ 		font-size: 1em;
+}
+	#about_us h3{
+		font-size: 2rem;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+	#about_us div{
+		display: grid;
+		grid-template-columns: 10% 20% 65%; 
+	}
+	#about_us div .name{
+		text-align: right;
+		width: 200px;
+		font-size: 1.4rem;
+	}
+	#about_us div .text_about{
+		font-size: 1.6rem;
+	}
+	#about_us div figure img {
+  		filter: grayscale(100%);
+  		transition: all .5s;
+	}
+	#about_us div figure img:hover {
+  		filter: none;
+	}
+	#contacts h3{
+		font-size: 2rem;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+	#contacts p{
+		margin-left: 1090px;
+		font-size: 1.6em;
+	}
+	#contacts div{
+		margin-left: 70px; 
+		margin-bottom: 170px;
+		filter: grayscale(100%);
+  		transition: all .5s;
+	}
+	#contacts div:hover{
+		filter:none;
+	}
+	.sprite1{
+		margin: -27px 0 0 560px;
+	}
+	.sprite2{
+		margin: -27px 0 0 600px;
+	}
+	.sprite3{
+		margin: -27px 0 0 640px;
+	}
+	.sprite4{
+		margin: -27px 0 0 680px;
+	}
+}
+
+@media(max-width: 900px) /*Больше среднего экрана - маленькй компьютер*/
+{
+	header{
+		height: 85px;
+	}
+	header div:first-child{
+		text-align: center;
+	}
+	header div:last-child{
+		visibility:hidden;
+	}
+	.motto_1{
+		margin: 58px 0 0 25px;
+		font-size: 3em;
+}
+	.button{
+		margin: 50px 0 0 250px;
+	}
+	#mottos_2{
+	margin: 277px 0 0 20px;
+	}
+	#howwework{
+		display: none;
+	}
+	#choose_us h2{
+		transform: rotate(-90deg);
+		margin:336px 0 0 -246px;
+		position: absolute;
+	}
+	#choose_us ul{
+		text-align: left;
+		flex-direction: column;
+		margin:-27px 0 0 85px;
+		position: absolute;
+		font-size: 2em;
+		line-height: 6em;
+	}
+	#images_page2 ul{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		list-style-type:none;
+	}
+	#images_page2 ul li figure img{
+		height: 165px;
+		width: 165px;
+		padding-top: 2%;
+		font-size: 2em;
+		list-style-type:none;
+		margin: 0 0 0 446px;
+	}
+	#portfolio .header_portfolio{
+		font-size: 2em;
+	}
+	.wrapper_1 {
+	  	height: 180px;
+	  	width: 400px;
+	  	margin: 20px 0 0 50px;
+	}
+	.wrapper_2 {
+	  	height: 180px;
+	  	width: 400px;
+	  	margin: 30px 0 0 50px;
+	}
+	.wrapper_3 {
+	  	height: 180px;
+	  	width: 400px;
+	  	margin: 40px 0 0 50px;
+	}
+	.project-img {
+	  	height: 180px;
+	  	width: 200px;
+	}
+	.project-img img{
+		height: 180px;
+		width: 200px;
+	}
+	.project-info {
+	  	height: 180px;
+	  	width: 200px;
+	}
+	.project-text {
+    	height: 300px;
+    	width: 327px;
+	}
+	.project-text h1 {
+		margin-left: 14px;
+  		font-size: 30px;
+	}
+	.project-text h2 {
+		margin: 15px 0 0 10px;
+		font-size: 0.4em;
+	}
+	.project-text p {
+		display: none;
+	}
+	.pallarax_3b iframe{
+		margin:240px 0 0 10px;
+		height: 300px;
+		width: 550px;
+	}
+	.pallarax_3b .text_video{
+		font-size: 3rem;
+		margin: 80px 0 0 20px;
+		width: 560px;
+	}
+	.project_info button {
+		margin: 24px 139px 0 16px;
+	}
+			/*Для Формы*/
+	#form_wrap form {
+		padding-top:4%;
+	}
+	#form_wrap form fieldset{
+		width: 400px;
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	#form_wrap form fieldset div{
+		padding-left:2%;
+	}
+	#form_wrap form fieldset button{
+		margin-left:300px;
+		font-size: 1.4rem;
+	}
+	#form_wrap label~input{
+		margin-left:2%;
+	}
+	#form_wrap form fieldset div input{
+ 		font-size: .8em;
+	}
+	#about_us h3{
+		text-align:center;
+		font-size: 1.7rem;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+	#about_us div{
+		display: grid;
+		grid-template-columns: 10% 40% 49%; 
+		line-height: 2rem;
+	}
+	#about_us div .name{
+		text-align: right;
+		width: 165px;
+		font-size: 1rem;
+	}
+	#about_us div figure img{
+		width: 130px;
+		height: 130px;
+		padding-left: 34%;
+	}
+	#about_us div .text_about{
+		font-size: 1rem;
+	}
+	#about_us div figure img {
+  		filter: grayscale(100%);
+  		transition: all .5s;
+	}
+	#about_us div figure img:hover {
+  		filter: none;
+	}
+	#contacts h3{
+		font-size: 2.3rem;
+		padding-top: 3%;
+		padding-bottom: 1%;
+	}
+	#contacts p{
+		margin-left: 208px;
+		margin-top: 84px;
+		font-size: 2em;
+		background-color: #FFDFDF;
+		width: 400px;
+		height: 310px;
+		line-height: 2em;
+		border-radius: 10px 10px 10px 10px;
+  		box-shadow: 0px 20px 52px 0px rgba(0, 0, 0, 0.15);
+	}
+	#contacts div{
+		display: none;
+	}
+		.sprite1{
+		margin:  -9px 0 0 -220px;
+	}
+	.sprite2{
+		margin: -9px 0 0 -180px;
+	}
+	.sprite3{
+		margin: -9px 0 0 -140px;
+	}
+	.sprite4{
+		margin: -9px 0 0 -100px;
+	}
+}
+
+@media(max-width: 600px) /*Средний экран - (меньше компьютера) - планшет*/
+{
+	header{
+		height: 85px;
+	}
+	header div:first-child{
+		text-align: center;
+	}
+	header div:last-child{
+		visibility:hidden;
+	}
+	.motto_1{
+		margin: 30px 0 0 40px;
+		font-size: 2,8em;
+}
+	.button{
+		margin: 54px 0 0 145px;
+	}
+	#mottos_2{
+	 	margin:280px 0 0 20px;
+	}
+	#howwework{
+		display: none;
+	}
+	#choose_us h2{
+		transform: rotate(-90deg);
+		margin:336px 0 0 -268px;
+		position: absolute;
+	}
+	#choose_us ul{
+		text-align: left;
+		flex-direction: column;
+		margin:9px 0 0 28px;
+		position: absolute;
+		font-size: 1.5em;
+		line-height: 7em;
+	}
+	#images_page2 ul{
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		list-style-type:none;
+}
+	#images_page2 ul li figure img{
+		height: 125px;
+		width: 125px;
+		padding-top: 2%;
+		font-size: 2em;
+		list-style-type:none;
+		margin: 30px 0 0 325px;
+	}
+	#portfolio .header_portfolio{
+		font-size: 1.4em;
+	}
+	.wrapper_1 {
+	  	height: 180px;
+	  	width: 360px;
+	  	margin: 20px 0 0 5px;
+	}
+	.wrapper_2 {
+	  	height: 180px;
+	  	width: 360px;
+	  	margin: 30px 0 0 5px;
+	}
+	.wrapper_3 {
+	  	height: 180px;
+	  	width: 360px;
+	  	margin: 40px 0 0 5px;
+	}
+	.project-img {
+	  	height: 180px;
+	  	width: 18px;
+	}
+	.project-img img{
+		height: 180px;
+		width: 180px;
+	}
+	.project-info {
+	  	height: 180px;
+	  	width: 180px;
+	}
+	.project-text {
+    	height: 300px;
+    	width: 327px;
+	}
+	.project-text h1 {
+		margin-left: 14px;
+		margin-top: 20px;
+  		font-size: 25px;
+	}
+	.project-text h2 {
+		display: none;
+	}
+	.project-text p {
+		display: none;
+	}
+	.pallarax_3b iframe{
+		margin:240px 0 0 5px;
+		height: 230px;
+		width: 370px;
+	}
+	.pallarax_3b .text_video{
+		font-size: 2rem;
+		margin: 80px 0 0 0;
+		width: 400px;
+	}
+	.project_info button {
+		margin: 48px 160px 0 16px;
+		height:37px; 
+		width:156px;
+	}
+				/*Для Формы*/
+	#form_wrap form {
+		padding-top:7%;
+	}
+	#form_wrap form fieldset{
+		width: 370px;
+		font-size: 1.2em;
+		line-height: 1.4em;
+	}
+	#form_wrap form fieldset div{
+		padding-left:6%;
+	}
+	#form_wrap form fieldset button{
+		margin-left:240px;
+		font-size: 1.4rem;
+	}
+	#form_wrap label~input{
+		margin-left:2%;
+	}
+	#form_wrap form fieldset div input{
+ 		font-size: .8em;
+	}
+	#about_us h3{
+		text-align:center;
+		font-size: 1.5rem;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+	#about_us div .name, figure{
+		display: none;
+	}
+	#about_us div .text_about{
+		font-size: 1.3rem;
+		width: 350px;
+		margin-top:30px;
+		text-align:center;
+		margin-left: 50%;
+	}
+	#about_us div:nth-child(3){
+		display: none;
+	}
+	#contacts h3{
+		font-size: 1.8rem;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	#contacts p{
+		margin: 29px 0 0 38px;
+		font-size: 1.5em;
+		background-color: #FFDFDF;
+		width: 300px;
+		height: 238px;
+		line-height: 2em;
+		border-radius: 10px 10px 10px 10px;
+  		box-shadow: 0px 20px 52px 0px rgba(0, 0, 0, 0.15);
+	}
+	#contacts div{
+		display: none;
+	}
+	.sprite1{
+		margin:  -9px 0 0 -220px;
+	}
+	.sprite2{
+		margin: -9px 0 0 -180px;
+	}
+	.sprite3{
+		margin: -9px 0 0 -140px;
+	}
+	.sprite4{
+		margin: -9px 0 0 -100px;
+	}
+}
+
+@media(max-width: 400px) /*Маленький экран - мобильный телефон*/
+{
+	header{
+		height: 105px;
+	}
+	header div:first-child{
+		text-align: center;
+	}
+	header div:last-child{
+		visibility:hidden;
+	}
+
+	.bg-grad.one{
+		background-image: url(../images/background/back1.jpg);
+	}
+	.bg-grad.two{
+		background-image: url(../images/background/back1.jpg);
+	}
+	.bg-grad.three{
+		background-image: url(../images/background/back1.jpg);
+	}
+	.motto_1{
+		margin: 30px 0 0 17px;
+		font-size: 2.4em;
+}
+	.button{
+		margin: 30px 0 0 69px;
+	}
+	#mottos_2{
+		margin:257px 0 0 4px;
+		text-align: center;
+	}
+	#howwework{
+		display: none;
+	}
+	#choose_us h2{
+		transform: rotate(-90deg);
+		margin:336px 0 0 -268px;
+		position: absolute;
+	}
+	#choose_us ul{
+		text-align: left;
+		flex-direction: column;
+		margin:148px 0 0 28px;
+		position: absolute;
+		font-size: 1.3em;
+		line-height: 5em;
+	}
+	#images_page2 ul{
+		display: none;
+	}
+	#portfolio .header_portfolio{
+		font-size: 1em;
+	}
+	.wrapper_1 {
+	  	height: 150px;
+	  	width: 280px;
+	  	margin: 20px 0 0 10px;
+	}
+	.wrapper_2 {
+	  	height: 150px;
+	  	width: 280px;
+	  	margin: 30px 0 0 10px;
+	}
+	.wrapper_3 {
+	  	height: 150px;
+	  	width: 280px;
+	  	margin: 40px 0 0 10px;
+	}
+	.project-img {
+	  	height:150px;
+	  	width: 140px;
+	}
+	.project-img img{
+		height: 150px;
+		width: 140px;
+	}
+	.project-info {
+	  	height: 150px;
+	  	width: 140px;
+	}
+	.project-text {
+    	height: 300px;
+    	width: 327px;
+	}
+	.project-text h1 {
+		margin-left: 11px;
+		margin-top: 9px;
+  		font-size: 20px;
+	}
+	.project-text h2 {
+		display: none;
+	}
+	.project-text p {
+		display: none;
+	}
+	.pallarax_3b iframe{
+		margin:310px 0 0 5px;
+		height: 180px;
+		width: 300px;
+	}
+	.pallarax_3b .text_video{
+		font-size: 2rem;
+		margin: 120px 0 0 17px;
+		width: 260px;
+	}
+	.project_info button {
+		margin: 21px 188px 0 10px;
+		height: 50px;
+		width: 138px;
+	}
+		/*Для Формы*/
+	#form_wrap form {
+		padding-top:7%;
+	}
+	#form_wrap form fieldset{
+		width: 200px;
+		font-size: 1em;
+		line-height: 1.4em;
+	}
+	#form_wrap form fieldset div{
+		padding-left:2%;
+	}
+	#form_wrap form fieldset button{
+		margin-left:210px;
+		font-size: 1.2rem;
+	}
+	#form_wrap label~input{
+		margin-left:2%;
+	}
+	#form_wrap form fieldset div input{
+ 		font-size: .8em;
+	}
+	#about_us h3{
+		text-align:center;
+		font-size: 1.2rem;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+	#about_us div .name, figure{
+		display: none;
+	}
+	#about_us div .text_about{
+		font-size: 1rem;
+		width: 320px;
+		text-align:left;
+		margin-left: 20%;
+	}
+	#contacts h3{
+		font-size: 1.3rem;
+		padding-top: 3%;
+		padding-bottom: 1%;
+		background-color: white;
+	}
+	#contacts p{
+		margin: 110px 0 0 20px;
+		font-size: 1.4em;
+		background-color: #FFDFDF;
+		width: 270px;
+		height: 230px;
+		line-height: 2em;
+		border-radius: 10px 10px 10px 10px;
+  		box-shadow: 0px 20px 52px 0px rgba(0, 0, 0, 0.15);
+	}
+	#contacts div{
+		display: none;
+	}
+	.sprite1, .sprite2, .sprite3, .sprite4{
+		display: none;
+	}
+}
